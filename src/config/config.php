@@ -4,7 +4,7 @@
 
 return array(
 
-    'current' => 'simple';
+    'current' => 'default';
 
 
 );
