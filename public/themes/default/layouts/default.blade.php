@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
 
     <!-- javascript & styles -->
-    {{HTML::script('js/jquery/dist/jquery.min.js')}}
+    {{HTML::asset('jquery/dist/jquery.min.js')}}
     {{Theme::style('theme.css')}}
-    {{HTML::style('js/fontawesome/css/font-awesome.min.css')}}
+    {{HTML::asset('fontawesome/css/font-awesome.min.css')}}
 
     <title>Main Layout for Default Theme</title>
 </head>
