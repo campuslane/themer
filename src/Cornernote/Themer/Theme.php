@@ -11,14 +11,10 @@ class Theme
         return $theme . '.layouts.' . $name;
     }
 
-    public static function style($name)
+    public static function path($name)
     {
         $theme = Config::get('themer::theme');
-        return HTML::style('packages/cornernote/themer/themes/' . $theme . '/css/'. $name);
+        return $theme . '.' . $name;
     }
 
-    public static function asset($name)
-    {
-        return HTML::style('packages/cornernote/themer/assets/' . $name);
-    }
 }

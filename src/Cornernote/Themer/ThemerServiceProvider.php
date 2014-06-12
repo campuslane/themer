@@ -36,7 +36,7 @@ class ThemerServiceProvider extends ServiceProvider {
 	{
 		// add the  public/themes path to the view path
 		$viewPaths = Config::get('view.paths');
-		$viewPaths[] = public_path() . '/packages/cornernote/themer/themes/';
+		$viewPaths[] = public_path() . '/themes/';
 		Config::set('view.paths', $viewPaths);
 	}
 
