@@ -1,0 +1,23 @@
+{
+    "name": "cornernote/themer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Frank Matull",
+            "email": "fmatull@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Cornernote\\Themer\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
