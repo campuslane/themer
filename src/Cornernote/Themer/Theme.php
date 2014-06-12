@@ -14,7 +14,7 @@ class Theme
     public static function path($name)
     {
         $theme = Config::get('themer::theme');
-        return $theme . '.' . $name;
+        return 'themes/' . $theme . '/' . $name;
     }
 
 }
