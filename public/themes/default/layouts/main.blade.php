@@ -14,7 +14,7 @@
 <div class="container">
     <h1>Main Layout : Simple Theme</h1>
     <button class="btn btn-info"><span class="fa fa-heart"></span></button>
-    <p>from views!</p>
+    
     @yield('main')
 </div>
 </body>

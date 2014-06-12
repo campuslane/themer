@@ -4,6 +4,6 @@
 
 return array(
 
-    'current' => 'default'
+    'theme' => 'default'
 
 );
