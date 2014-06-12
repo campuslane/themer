@@ -4,7 +4,6 @@
 
 return array(
 
-    'current' => 'default';
-
+    'current' => 'default'
 
 );
