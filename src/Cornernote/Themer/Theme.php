@@ -11,8 +11,8 @@ class Theme
         return 'themes.' . $theme . '.layouts.' . $name;
     }
 
-    public static function style($name)
+    public static function asset($name)
     {
-        return HTML::style('themes/' . Config::get('themer::theme') . '/css/' . $name);
+        return HTML::style('themes/assets/' . $name);
     }
 }
